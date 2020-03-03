@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'User/bloc/bloc_user.dart';
-import 'platzi_trips.dart';
-import 'platzi_trips_cupertino.dart';
+import 'pp_catalog.dart';
+import 'pp_catalog_cupertino.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 
 void main() => runApp(MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocProvider(
       child: MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Title App - TODO',
         theme: ThemeData(
           // This is the theme of your application.
           //

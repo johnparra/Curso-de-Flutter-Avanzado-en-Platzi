@@ -1,5 +1,5 @@
 name: platzi_trips_app
-description: A new Flutter application.
+description: Show pictures about of service
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -24,7 +24,12 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  cupertino_icons: ^0.1.2
   generic_bloc_provider: ^1.0.9
+  firebase_auth:
+  google_sign_in:
+  firebase_storage: ^2.1.0
+  cloud_firestore: ^0.9.13
 
 
 # For information on the generic Dart part of this file, see the
